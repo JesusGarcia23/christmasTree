@@ -1,0 +1,116 @@
+
+
+.myTitle{
+    color: red;
+}
+
+#triangle-top {
+    position: relative;
+    width: 0vw;
+    height: 0vh;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 100px solid green;
+    margin: auto;
+    padding:0;
+  } 
+
+#triangle-up-1 {
+    position: relative;
+    width: 9.5vw;
+    height: 0vh;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 90px solid green;
+    margin: auto;
+    padding:0;
+  }
+
+#triangle-up-2 {
+    position: relative;
+    width: 15vw;
+    height: 0vh;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 90px solid green;
+    margin: auto;
+    padding:0;
+}
+
+#triangle-up-3 {
+    position: relative;
+    width: 20vw;
+    height: 0vh;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 90px solid green;
+    margin: auto;
+    padding:0;
+}
+
+#triangle-up-4 {
+    position: relative;
+    width: 25vw;
+    height: 0vh;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 90px solid green;
+    margin: auto;
+}
+
+#tree-base{
+    position: relative;
+    margin: auto;
+    width: 5vw;
+    height: 15vh;
+    background-color: brown;
+    border: 1px solid brown;
+    padding:0;
+}
+
+
+#star-five {
+    margin: 0px auto;
+    position: relative;
+    display: block;
+    color: whitesmoke;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid whitesmoke;
+    border-left: 50px solid transparent;
+    transform: rotate(35deg);
+    z-index: 1;
+  }
+  #star-five:before {
+    border-bottom: 40px solid whitesmoke;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -22.5px;
+    left: -32.5px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+  #star-five:after {
+    margin: auto;
+    position: absolute;
+    display: block;
+    color: whitesmoke;
+    top: 1.5px;
+    left: -52.5px;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid whitesmoke;
+    border-left: 50px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
+
+.tree-light{
+    --value: 25px
+}
