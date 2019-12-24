@@ -81,13 +81,13 @@
     width: 0px;
     height: 0px;
     border-right: 50px solid transparent;
-    border-bottom: 35px solid whitesmoke;
+    border-bottom: 35px solid darkgray;
     border-left: 50px solid transparent;
     transform: rotate(35deg);
     z-index: 1;
   }
   #star-five:before {
-    border-bottom: 40px solid whitesmoke;
+    border-bottom: 40px solid darkgray;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     position: absolute;
@@ -103,13 +103,13 @@
     margin: auto;
     position: absolute;
     display: block;
-    color: whitesmoke;
+    color: darkgray;
     top: 1.5px;
     left: -52.5px;
     width: 0px;
     height: 0px;
     border-right: 50px solid transparent;
-    border-bottom: 35px solid whitesmoke;
+    border-bottom: 35px solid darkgray;
     border-left: 50px solid transparent;
     transform: rotate(-70deg);
     content: '';
