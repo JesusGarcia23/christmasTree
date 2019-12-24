@@ -9,4 +9,10 @@ class Light{
 }
 
 let firstLight = new Light("red", 50, "160deg")
-let secondLight = new Light("yellow" ,70, "160deg")
+let secondLight = new Light("yellow" ,70, "30deg")
+
+
+
+
+// 30deg
+//160deg

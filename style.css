@@ -4,6 +4,10 @@
     color: red;
 }
 
+#treeContainer{
+  display: block;
+}
+
 #triangle-top {
     position: relative;
     width: 0vw;
